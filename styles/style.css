@@ -165,7 +165,43 @@ main {
     color: #424242;
     font-weight: 500;
 }
+/* Sponsors */
 
+.sponsors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.sponsors-details > h1 {
+    color: #131313;
+    font-size: 2rem;
+    text-align: center;
+}
+.sponsors-details > p {
+    color: #424242;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 24px;
+}
+.sponsors .sponsors-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+}
+.sponsors-images > img {
+    width: calc(60% / 5);
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.sponsors-images > img:hover{
+    filter: grayscale(0%);
+}
 
 
 
@@ -210,6 +246,15 @@ main {
     .fact-card {
         width: 100%;
     }
+
+    /* Sponsor section */
+
+    .sponsors-images {
+        flex-direction: row;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    
     
     
 
