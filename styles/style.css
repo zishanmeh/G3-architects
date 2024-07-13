@@ -203,6 +203,15 @@ main {
     filter: grayscale(0%);
 }
 
+/* Footer */
+
+footer {
+    background-color: hsla(32, 100%, 53%, 0.10);
+    padding: 20px;
+    text-align: center;
+    color: #424242;
+    margin-top: 70px;
+}
 
 
 
